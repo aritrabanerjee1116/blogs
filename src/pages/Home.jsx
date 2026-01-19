@@ -13,7 +13,7 @@ const Home = () => {
     try {
       setLoading(true);
       const res = await getAllPosts();
-      setPosts(res.data.posts); // ✅ API gives {posts:[]}
+      setPosts(res.data.posts); 
     } catch (error) {
       alert("Failed to fetch posts");
     } finally {
