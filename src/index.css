@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  padding: 15px 30px;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.container {
+  padding: 30px;
+}
+
+.blogList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.blogCard {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.desc {
+  margin-top: 8px;
+  color: #444;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background: black;
+  color: white;
+}
+
+.secondaryBtn {
+  background: #555;
+}
+
+.sortBox {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.loadingText {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.tagBox {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #eee;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
