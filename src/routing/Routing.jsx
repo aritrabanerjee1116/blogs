@@ -15,7 +15,6 @@ const Routing = () => {
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/author/:authorId" element={<Author />} />
 
-        {/* ✅ Invalid routes */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
