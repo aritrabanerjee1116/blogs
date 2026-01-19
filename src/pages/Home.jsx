@@ -30,18 +30,11 @@ const Home = () => {
     return a.title.localeCompare(b.title);
   });
 
-  const handleSort = (value) => {
-    setSearchParams({ sort: value });
-  };
+ 
 
   return (
     <div className="container">
       <h1>All Blog Posts</h1>
-
-      <div className="sortBox">
-        <button onClick={() => handleSort("asc")}>Sort A-Z</button>
-        <button onClick={() => handleSort("desc")}>Sort Z-A</button>
-      </div>
 
       {loading ? (
         <p className="loadingText">Loading posts...</p>
